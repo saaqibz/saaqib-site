@@ -1,0 +1,62 @@
+<?php
+/*
+ * noscript.php: homepage file. using php to separate slides into different files.
+ */
+
+require_once("include/helper.php");
+?>
+
+<!doctype html>
+<html>
+<head>
+  <title> S. Alexander Zaman - A Cursory Synopsis</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link href='styles.css' rel='stylesheet' />
+</head>
+<!-- NO JAVASCRIPT WARNING -->
+
+<body>
+<div style="text-align:center;">
+<!-- Navigation Buttons -->
+  <div id='noscript-navigation'>
+    <a href="#home"><img id="noscript-home-img" alt="home" src="img/home.png" width="50"></a> &nbsp;&nbsp;&nbsp;
+    <a href="#projects"><img id="noscript-projects-img" alt="projects" src="img/projects.png" width="130"></a>&nbsp;&nbsp;&nbsp;
+    <a href="#resume"><img id="noscript-resume-img" alt="resume" src="img/resume.png" width="120"></a>&nbsp;&nbsp;&nbsp;
+    <a href="#contact"><img id="noscript-contact-img" alt="contact" src="img/contact.png" width="130"></a>&nbsp;&nbsp;&nbsp;
+  </div>
+<!-- Home -->
+  <div id='noscript-home'>
+	  <a name="home"><h1>S. ALEXANDER ZAMAN</h1>
+    <p>Welcome. This is the personal homepage of S. Alexander Zaman.<br>
+    Feel free to peruse my site to see some of my work, my resume,<br>
+    and ways to get in touch with me.<br></p>
+  </div>
+<!-- Projects -->
+  <div id='noscript-projects'>
+    <a name="projects"><h1>Projects</h1>
+    <h2>Websites</h2>
+      <ul id='noscript'>
+        <li>Argonauts-Bd</li>
+        <li>University Admissions Services</li>
+      </ul>
+      <h2>Project Euler</h2>
+	</div>
+<!-- Resume -->
+  <div id='noscript-resume'>
+  <!-- TODO: MAKE NOSCRIPT RESUME NAV -->
+    <a name="home"><h1>Resume</h1>
+	  <hr class='resume' />
+    <iframe id="iframe" src="resume.html" width="750" height="425"></iframe>
+    <hr class='resume' />
+	</div>
+<!-- Contact -->
+  <div id='noscript-contact'>
+    <a name="home"><h1>Contact Me</h1>
+
+Contact me using <a href="https://www.linkedin.com/pub/s-alexander-zaman/4/765/330">LinkedIn</a><br>
+    Alternatively you can send an email to my Gmail account (saaqibz)
+    <p>I look forward to hearing from you!</p>
+	</div>		
+</div>
+</body>
+</html>

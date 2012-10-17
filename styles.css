@@ -1,0 +1,243 @@
+/*
+ * S. Alexander Zaman : Impress.js Website Presentation Stylesheet
+ * Version 1.0 [Last Updated: 10/03/2012]
+ */
+
+img {
+    z-index:-1;
+}
+ 
+body {
+	background:#EBEBEB;
+	font:16px/24px;
+	color:#333;
+}
+
+.step {
+	width:900px;
+	margin:5px auto 24px auto;
+	text-align:center;
+}
+
+ul {
+    text-align:left;
+}
+
+#home-body {
+    position:absolute;
+    top:-75px;
+    left:150px;
+}
+
+/* HOMEPAGE NAVIGATION */
+
+img#home-resume-img {
+    position:absolute;
+    left:675px;
+    top:30px;
+    rotation-point:50% 50%;
+    rotation:180deg;
+    
+    /*rotate*/
+    -webkit-transform:rotate(-90deg);
+    -moz-transform:rotate(-90deg);
+    -o-transform:rotate(-90deg);
+    /* filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=-.5); */
+    -ms-transform:rotate(-90deg);
+
+}
+
+img#home-contact-img {
+    position:absolute;
+    left:250px;
+    top:-200px;
+}
+
+img#home-projects-img {
+    position:absolute;
+    left:200px;
+    top:200px;
+}
+
+/* PROJECTS PAGE */
+
+#projects-websites {
+    /*rgba  alpha is the transparency*/
+    background-color:rgba(0,100,50,0.1); /*produces teal*/
+    position:relative;
+    margin: -100px -150px 0px 0px;
+    width:225px;
+    height:300px;
+    border:3px groove gray;
+    
+    /* rounded corners */
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+    
+}
+
+#projects-websites ul{
+    margin:0px;
+    padding: 15px 25px;
+    font-size:12px;
+}
+
+#projects-euler {
+    /*rgba  alpha is the transparency*/
+    background-color:rgba(0,100,50,0.1); /*produces teal*/
+    position:relative;
+    margin: -150px 200px 0px auto;
+    width:400px;
+    height:200px;
+    border:3px groove gray;
+    
+    /* rounded corners */
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+}
+
+/* PROJECTS NAVIGATION */
+
+img#projects-resume-img {
+    position:absolute;
+    left:675px;
+    top:30px;
+    rotation-point:50% 50%;
+    rotation:180deg;
+    
+    /*rotate*/
+    -webkit-transform:rotate(-90deg);
+    -moz-transform:rotate(-90deg);
+    -o-transform:rotate(-90deg);
+    /* filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=-.5); */
+    -ms-transform:rotate(-90deg);
+
+}
+
+img#projects-contact-img {
+    position:absolute;
+    right:30%;
+    top:-35%;
+}
+
+img#projects-home-img {
+    position:absolute;
+    left:10%;
+    top:-35%;
+}
+
+
+
+
+/* CONTACT PAGE */
+img.contact {
+    width:100px;
+    height:100px;
+    padding: 20px;
+}
+
+/* CONTACT NAVIGATION */
+/*
+img#contact-home-img {
+    position:absolute;
+    left:20%;
+    bottom:-25%;
+}
+
+img#contact-projects-img {
+    position:absolute;
+    left:30%;
+    bottom:-25%;
+}
+
+img#contact-resume-img {
+    position:absolute;
+    left:60%;
+    bottom:-25%;
+}
+*/
+
+
+/* RESUME PAGE */
+#iframe {
+    border:0;
+}
+
+.resume {
+    width: 700px;
+}
+#resume ul {
+    margin-left:10px;
+}
+
+
+
+
+/* RESUME NAVIGATION */
+
+img#resume-contact-img {
+    position:absolute;
+    right:-10%;
+    top:30px;
+    rotation-point:50% 50%;
+    rotation:180deg;
+    
+    /*rotate*/
+    -webkit-transform:rotate(-90deg);
+    -moz-transform:rotate(-90deg);
+    -o-transform:rotate(-90deg);
+    /* filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=-.5); */
+    -ms-transform:rotate(-90deg);
+
+}
+
+img#resume-home-img {
+    position:absolute;
+    left:0;
+    top: -75px;
+}
+
+img#resume-projects-img {
+    position:absolute;
+    left:-10%;
+    bottom:10%;
+    
+    /*rotate*/
+    -webkit-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -o-transform:rotate(90deg);
+    /* filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=-.5); */
+    -ms-transform:rotate(90deg);
+}
+
+/*NO SCRIPT STYLES */
+
+div#noscript {
+    text-align:center;
+    float:top;
+    position:fixed;
+    background-color:rgb(210,210,210); /*Fallback if rgba doesn't work*/
+    background-color:rgba(210,210,210,0.90);
+    color: maroon;
+    font: 30px bold;
+    z-index:99;
+    margin: auto;
+    padding:20px 10px;
+    width:95%;
+    height:240px;
+    font-variant:small-caps;
+    border: 5px groove black;
+    
+    
+}
+
+
+ul#noscript {
+    text-align:left;
+    margin-left:30%;
+}
+
