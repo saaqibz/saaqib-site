@@ -23,12 +23,16 @@
 </div>
 
 <div id="projects-progress">
+  <p><strong>Jasper Reports Servlet</strong> Creates pdfs based on JSON feeds of data and template-parameters<br>
+  <progress value="30" max="100"></progress></p>
   <p><strong>Project Euler:</strong> Complete Problems 1-25 using Python<br>
   <progress value="13" max="25"></progress></p>
   <p><strong>Currency Pidgeon:</strong> P2P Currency Exchange Application<br>
-  <progress value="10" max="100"></progress></p>
+  <progress value="70" max="100"></progress></p>
   <p><strong>BeatBox:</strong> Simple Java Midi Beatbox Application<br>
   <progress value="75" max="100"></progress></p>
+  <p><strong>Python Sync</strong> Syncs assets on a cloud-based server to multiple Dropbox, ftp, and sftp<br>
+  <progress value="100" max="100"></progress></p>
   <p><strong>TicTacToe:</strong> Simple TicTacToe Game Using Python<br>
   <progress value="100" max="100"></progress></p>
   
